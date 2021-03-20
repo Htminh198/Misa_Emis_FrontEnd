@@ -1,0 +1,63 @@
+    .mx-calendar-content .cell.active {
+        color: var(--date-picker-active-bg);
+        background-color: #fff;
+    }
+    
+    .mx-calendar-content .cell {
+        font-size: 15px
+    }
+    
+    .mx-calendar-header-label,
+    .mx-time-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mx-datepicker-footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .mx-calendar-content .cell:hover {
+        background-color: var(--date-picker-hover-bg);
+    }
+    
+    .mx-datepicker {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .icon-calendar {
+        margin: 5px 0;
+        background: url('../../img/icon.svg') no-repeat -50px -25px;
+        width: 20px;
+        height: 22px;
+    }
+    
+    .mx-btn-text:hover {
+        color: var(--date-picker-active-bg)
+    }
+    
+    .mx-table-date .today {
+        color: var(--date-picker-active-bg)
+    }
+    
+    .mx-time-column .mx-time-item.active {
+        color: var(--date-picker-active-bg)
+    }
+    
+    .mx-btn {
+        border: none
+    }
+    
+    .mx-btn:hover {
+        color: var(--date-picker-active-bg)
+    }
+    
+    .mx-input:hover,
+    .mx-input:focus {
+        border-color: #ec5504;
+    }

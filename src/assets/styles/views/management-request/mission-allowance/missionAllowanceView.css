@@ -1,0 +1,68 @@
+    .container {
+        padding: 16px 24px;
+    }
+    
+    .content-header {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        margin: -10px 0 10px 0;
+        position: relative;
+        top: 0;
+    }
+    
+    .content-header .content-header-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 20px;
+        width: 180px;
+    }
+    
+    .content-header .content-header-selectbox {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        color: rgb(148, 148, 148)
+    }
+    
+    .content-header .content-header-selectbox .dx-texteditor-container {
+        border: 0;
+        width: 130px;
+        background-color: #eee;
+    }
+    
+    .content-main {
+        height: calc(100% - 64px);
+        display: flex;
+    }
+    
+    .content-header .selected {
+        margin-right: 15px
+    }
+    
+    .content-header .unselected {
+        margin-right: 30px;
+        cursor: pointer;
+        color: var(--primary)
+    }
+    
+    .content-header .content-header-right {
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .content-header .content-header-right .search {
+        margin-bottom: 10px;
+        margin-left: -10px;
+        margin-right: 0px;
+    }
+    
+    .dx-header-row>td>.dx-datagrid-text-content {
+        white-space: normal;
+        vertical-align: top;
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+    }

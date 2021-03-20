@@ -1,0 +1,54 @@
+.dx-popup-title {
+    border: none
+}
+
+.dx-popup-title.dx-toolbar {
+    height: 53px;
+    padding: 24px 24px 0 24px;
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-items-container {
+    height: 29px;
+}
+
+.dx-button-has-icon .dx-button-content {
+    padding: 0px;
+}
+
+.dx-button {
+    height: 29px;
+    width: 29px
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-item:last-child {
+    padding: 0;
+    max-width: 120px;
+}
+
+.dx-toolbar-label .dx-toolbar-item-content>div {
+    letter-spacing: 0.576px;
+    font-size: 24px;
+    color: rgb(33, 33, 33);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.dx-popup-content .popup-text {
+    font-size: 14px;
+}
+
+.dx-popup-content .popup-event {
+    height: 36px;
+    display: flex;
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+}
+
+.confirm-popup .dx-popup-content {
+    padding: 0;
+}
+
+.dx-button.dx-state-hover {
+    background-color: white;
+}

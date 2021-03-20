@@ -1,0 +1,21 @@
+{
+    "status": [
+
+        {
+            "id": 0,
+            "name": "Tất cả"
+        },
+        {
+            "id": 1,
+            "name": "Chờ duyệt"
+        },
+        {
+            "id": 2,
+            "name": "Đã duyệt"
+        },
+        {
+            "id": 3,
+            "name": "Từ chối"
+        }
+    ]
+}

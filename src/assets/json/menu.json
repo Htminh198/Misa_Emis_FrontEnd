@@ -1,0 +1,96 @@
+[{
+        "id": 1,
+        "name": "Tổng quan",
+        "class": "dashboard"
+    },
+    {
+        "id": 2,
+        "name": "Chấm công",
+        "class": "timekeeping",
+        "dropdownList": [{
+                "id": 1,
+                "name": "Bảng chấm công chi tiết",
+                "class": "detail-timesheet"
+            },
+            {
+                "id": 2,
+                "name": "Bảng chấm công tổng hợp",
+                "class": "general-timesheet"
+            }, {
+                "id": 3,
+                "name": "Dữ liệu máy chấm công",
+                "class": "timekeepermarchine"
+            }
+
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ca làm việc",
+        "class": "timeworking",
+        "dropdownList": [{
+                "id": 1,
+                "name": "Danh sách phân ca tổng hợp",
+                "class": "general-shift"
+            },
+            {
+                "id": 2,
+                "name": "Danh sách ca",
+                "class": "working-shift"
+            }, {
+                "id": 3,
+                "name": "Danh sách phân ca chi tiết",
+                "class": "shift-detail"
+            }
+
+        ]
+
+    },
+    {
+        "id": 4,
+        "name": "Quản lý đơn",
+        "class": "management-request",
+        "dropdownList": [{
+                "id": 1,
+                "name": "Đơn xin nghỉ",
+                "class": "attendance-watch"
+            },
+            {
+                "id": 2,
+                "name": "Đề nghị cập nhật công",
+                "class": "request-update-working"
+            }, {
+                "id": 3,
+                "name": "Đề nghị công tác",
+                "class": "mission-allowance"
+            },
+            {
+                "id": 4,
+                "name": "Đơn làm thêm giờ",
+                "class": "register-overtime"
+            },
+            {
+                "id": 5,
+                "name": "Đơn đi muộn/về sớm",
+                "class": "late-in-early-out"
+            },
+            {
+                "id": 6,
+                "name": "Bảng tổng hợp nghỉ phép",
+                "class": "attendance-watch-summary"
+            }
+
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Báo cáo",
+        "class": "report"
+    },
+    {
+        "id": 6,
+        "name": "Thiết lập",
+        "class": "setting"
+    }
+
+]

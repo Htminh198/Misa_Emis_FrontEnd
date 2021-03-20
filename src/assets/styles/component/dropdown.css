@@ -1,0 +1,70 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown ul {
+    list-style: none;
+    position: absolute;
+    background-color: var( --white);
+    width: auto;
+    box-shadow: 0px 0px 10px 0 rgb(0 0 0 / 10%);
+    top: 32px;
+    left: -80px;
+    padding: 8px;
+    z-index: 11111;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.dropdown ul li {
+    display: flex;
+    height: 35px;
+    padding: 0 8px;
+    font-size: 14px;
+    word-break: unset;
+    align-items: center;
+    border-radius: 4px;
+    color: var( --black);
+}
+
+.dropdown ul li .text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}
+
+.dropdown ul li:hover {
+    background-color: var( --dropdown-item-hover);
+    color: var(--black)
+}
+
+.dropdown ul .active {
+    background-color: var( --dropdown-item-hover) !important;
+    color: var( --dropdown-item-active-color) !important;
+}
+
+.dropdown ul li .icon-check {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+.dropdown ul .active .icon-check {
+    background-color: var( --dropdown-item-active-color);
+    mask: url(../../img/icon.svg) -216px -48px;
+    background-repeat: no-repeat;
+}
+
+.dropdown .show {
+    visibility: visible;
+}
+
+.dropdown .icon {
+    margin-left: 10px;
+    mask: url('~@/assets/img/icon.svg') no-repeat -199px -9px;
+    width: 10px;
+    height: 6px;
+    background-color: var( --white)
+}

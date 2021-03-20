@@ -1,0 +1,81 @@
+    .mission-allowance-detail .detail-title {
+        display: flex;
+        align-items: center;
+        margin: 24px 24px 0 24px;
+    }
+    
+    .mission-allowance-detail .detail-title .detail-text {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    
+    .mission-allowance-detail .content-nodata {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        align-items: center;
+    }
+    
+    .mission-allowance-detail .content-nodata .nodata {
+        margin-right: 20px;
+        color: rgb(182, 180, 180);
+    }
+    
+    .mission-allowance-detail .detail-title .detail-icon-cancel {
+        mask-image: url('../../../../icons/x.svg');
+        mask-size: contain;
+        background-color: rgb(160, 158, 158);
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        margin-left: 70%;
+    }
+    
+    .mission-allowance-detail .detail-footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        border-top: 1px solid var( --button-secondary-focus-border-color);
+    }
+    
+    .mission-allowance-detail .event {
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+        height: 60px;
+        display: flex;
+    }
+    
+    .mission-allowance-detail .detail-content {
+        overflow-x: auto;
+        overflow-y: auto;
+        height: 500px;
+        padding: 24px;
+    }
+    
+    .mission-allowance-detail .detail-content .detail-form {
+        display: flex;
+    }
+    
+    .mission-allowance-detail .detail-content .detail-form .left {
+        width: 47%;
+        margin-right: 6%;
+    }
+    
+    .mission-allowance-detail .detail-content .detail-form .right {
+        width: 47%;
+    }
+    
+    .mission-allowance-detail .detail-content .detail-form .dx-field {
+        margin: 16px 0 0 0;
+    }
+    
+    .mission-allowance-detail .detail-content .detail-form .left .dx-field {
+        margin: 18px 0 0 0;
+    }

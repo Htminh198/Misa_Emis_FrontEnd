@@ -1,0 +1,54 @@
+.filter {
+    background-color: var(--white);
+    width: 16%;
+    border-radius: 8px;
+}
+
+.filter .filter-title {
+    display: flex;
+    margin: 10px;
+}
+
+.filter .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 130px;
+}
+
+.filter .icon-cancel {
+    background: url('../../img/icon.svg') no-repeat -30px -54px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.filter .search {
+    margin: 0 20px;
+    margin-right: -10px;
+}
+
+.filter .filter-content {
+    margin-top: 15px;
+    height: 74%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.filter .event {
+    display: flex;
+    margin-top: 0px;
+}
+
+.filter-item {
+    margin: 5px 5px 5px 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.filter-item.active {
+    background-color: var( --date-picker-range-bg)
+}
+
+.filter-item .dx-checkbox-container {
+    width: 150px;
+}

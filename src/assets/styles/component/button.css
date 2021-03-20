@@ -1,0 +1,214 @@
+.btn-normal {
+    background-color: var(--white);
+    border-color: 1px solid var(--black);
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.btn-normal:focus {
+    outline: 0
+}
+
+button {
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn {
+    height: 36px;
+    min-width: 80px;
+    padding: 0 16px;
+}
+
+.noText {
+    width: 36px;
+    height: 36px;
+}
+
+.hasIcon {
+    padding: 0 16px 0 12px;
+}
+
+.noText {
+    padding: 0 8px;
+    justify-content: center;
+}
+
+.btn-icon {
+    mask: url(~@/assets/img/icon.svg);
+    background-repeat: no-repeat;
+    margin: 0 8px 0 0;
+    background-color: white;
+}
+
+.noText .btn-icon {
+    margin: 0;
+    background-color: #666;
+}
+
+.ms-button-primary {
+    color: var( --button-primary-color);
+    background-color: var(--button-primary-normal-bg-color);
+    border: 1px solid var( --button-primary-normal-border-color);
+}
+
+.ms-button-primary:hover {
+    background-color: var(--button-primary-hover-bg-color);
+    border: 1px solid var( --button-primary-normal-border-color);
+}
+
+.ms-button-primary:active {
+    background-color: var( --button-primary-active-bg-color);
+    border: 1px solid var( --button-primary-active-border-color);
+}
+
+.ms-button-primary:disabled {
+    background-color: var( --button-primary-disabled-color);
+    border: 1px solid var( --button-primary-disabled-bg-color);
+    color: var(--black);
+}
+
+.ms-button-primary:focus {
+    background-color: var( --button-primary-focus-bg-color);
+    border: 1px solid var( --button-primary-focus-border-color);
+    outline: 0
+}
+
+.ms-button-secondary {
+    background-color: #fff;
+    color: #171b2a;
+    border: 1px solid #dadce3;
+}
+
+.ms-button-secondary:hover {
+    background-color: #eff1f6;
+    border: 1px solid #dadce3;
+}
+
+.ms-button-secondary:active {
+    background-color: #e8eaef;
+    border: 1px solid #dadce3;
+}
+
+.ms-button-secondary:focus {
+    background-color: #eff1f6;
+    border: 1px solid #dadce3;
+    outline: 0
+}
+
+.noText:hover {
+    background-color: rgb(255, 237, 226);
+    border: 1px solid rgb(236, 85, 4);
+}
+
+.noText:hover .btn-icon {
+    background-color: rgb(236, 85, 4);
+}
+
+.noText:focus {
+    background-color: rgb(255, 237, 226);
+    border: 1px solid rgb(236, 85, 4);
+    outline: 0;
+}
+
+.noText:focus .btn-icon {
+    background-color: rgb(236, 85, 4);
+}
+
+.noText:active {
+    background-color: rgb(255, 237, 226);
+    border: 1px solid rgb(236, 85, 4);
+}
+
+.noText:active .btn-icon {
+    background-color: rgb(236, 85, 4);
+}
+
+.ms-button-danger {
+    font-size: 14px;
+    font-weight: bold;
+    color: var( --primary);
+    background-color: var(--white);
+    border: 1px solid var( --button-primary-normal-border-color);
+}
+
+.ms-button-danger:hover {
+    background-color: rgb(250, 234, 234);
+    border: 1px solid var( --button-primary-normal-border-color);
+}
+
+.ms-button-danger:active {
+    background-color: rgb(248, 226, 226);
+    border: 1px solid var( --button-primary-active-border-color);
+}
+
+.ms-button-danger:disabled {
+    background-color: rgb(248, 226, 226);
+    border: 1px solid var( --button-primary-disabled-bg-color);
+    color: var(--black);
+}
+
+.ms-button-danger:focus {
+    background-color: rgb(248, 226, 226);
+    border: 1px solid var( --button-primary-focus-border-color);
+    outline: 0
+}
+
+.ms-button-filled {
+    color: #3C4ADA;
+    background-color: var(--white);
+    border: 0;
+}
+
+.ms-button-filled:focus {
+    outline: 0;
+}
+
+.ms-button-default.noText:hover {
+    background-color: #fff;
+    color: #171b2a;
+    border: 1px solid #dadce3;
+}
+
+.ms-button-default.noText:focus {
+    background-color: #fff;
+    color: #171b2a;
+    border: 1px solid #dadce3;
+}
+
+.ms-button-default.noText:active {
+    background-color: #fff;
+    color: #171b2a;
+    border: 1px solid #dadce3;
+}
+
+.ms-button-primary-danger {
+    color: var( --button-primary-color);
+    background-color: #EF292F;
+    border: 1px solid #EF292F;
+}
+
+.ms-button-primary-danger:hover {
+    background-color: #ed1219;
+    border: 1px solid #ef292f;
+}
+
+.ms-button-primary-danger:active {
+    background-color: #d51017;
+    border: 1px solid #ef292f;
+}
+
+.ms-button-primary-danger:focus {
+    background-color: #ed1219;
+    border: 1px solid #ef292f;
+    outline: 0
+}

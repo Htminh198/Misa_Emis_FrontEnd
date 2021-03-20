@@ -1,0 +1,104 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.header .app-info {
+    height: 32px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.header .app-info .toggle {
+    height: 20px;
+    width: 20px;
+    background-image: url('../../img/toggle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 16px 0 24px;
+}
+
+.header .app-info .logo-img {
+    height: 32px;
+    width: 32px;
+    background-image: url("../../img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 5px;
+}
+
+.header .app-info .logo-text {
+    margin: 0 0 0 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.header .header__right {
+    height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.header .header__right .version {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.header .header__right .notification {
+    background: url('../../img/icon.svg') no-repeat -267px -2px;
+    width: 18px;
+    height: 20px;
+    margin: 0 16px;
+}
+
+.header .header__right .avatar {
+    background-image: url('../../img/avatar.png');
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.header .header__menu {
+    height: 40px;
+    width: calc(100% - 430px);
+    display: flex;
+    align-items: center;
+}
+
+.header .header__menu .menu-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    margin: 0 16px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    color: var(--black);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header .header__menu .menu-item .fa-chevron-down {
+    color: var(--white);
+    margin-left: 8px;
+}
+
+.header .header__menu .menu-item:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.header .header__menu .active {
+    background-color: var(--primary);
+    color: var(--white);
+}

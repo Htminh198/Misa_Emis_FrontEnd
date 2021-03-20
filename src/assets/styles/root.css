@@ -1,0 +1,118 @@
+@import './layout/content.css';
+@import './layout/header.css';
+@import './component/button.css';
+@import './component/menu.css';
+@import './component/dropdown.css';
+@import './component/grid.css';
+@import './component/filter.css';
+@import './component/input.css';
+@import './component/dx.css';
+@import './component/field.css';
+@import './component/popup.css';
+@import './component/toast.css';
+@import './component/date-picker.css';
+@import './views/management-request/mission-allowance/missionAllowanceView.css';
+@import './views/management-request/mission-allowance/missionAllowanceDetail.css';
+#app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+:root {
+    --primary: #ec5504;
+    --primary-bg: #ffede2;
+    --white: #fff;
+    --black: #050505;
+    --text-box-height: 36px;
+    --combo-box-height: 36px;
+    --input-border-radius: 4px;
+    --input-normal-border-color: #d3d3d3;
+    --input-active-border-color: #ec5504;
+    --input-hover-border-color: #ec5504;
+    --input-disable-border-color: #dadce3;
+    --input-disable-bg-color: #e8eaef;
+    --input-error-border-color: #ff6161;
+    --combobox-highlight-bg-color: #ffede2;
+    --combobox-highlight-color: #ec5504;
+    --combobox-color: #000;
+    --tab-color: #ec5504;
+    --tab-bg: #ec5504;
+    --tab-border: #ec5504;
+    --combobox-selected-bg: #e6e8ed;
+    --date-picker-active-bg: #ec5504;
+    --date-picker-range-bg: #ffede2;
+    --date-picker-hover-bg: #ffede2;
+    --date-picker-color-today: #ec5504;
+    --button-height: 36px;
+    --button-border-radius: 4px;
+    --button-primary-color: #fff;
+    --button-primary-normal-bg-color: #ec5504;
+    --button-primary-normal-border-color: #ec5504;
+    --button-primary-hover-bg-color: #fa6000;
+    --button-primary-hover-border-color: #fa6000;
+    --button-primary-active-bg-color: #e35102;
+    --button-primary-active-border-color: #e35102;
+    --button-primary-disabled-color: rgba(255, 255, 255, 0.56);
+    --button-primary-disabled-bg-color: rgba(236, 85, 4, 0.56);
+    --button-primary-disabled-border-color: rgba(236, 85, 4, 0.56);
+    --button-primary-focus-bg-color: #ec5504;
+    --button-primary-focus-border-color: #ec5504;
+    --grid-loading-color: 236, 85, 4;
+    --dropdown-item-hover: #ffede2;
+    --dropdown-item-active-color: #ec5504;
+}
+
+:root {
+    --ms-primary: var(--grid-loading-color);
+    --ms-secondary: 255, 255, 255;
+    --ms-third: 255, 255, 255;
+    --ms-danger: 255, 71, 87;
+    --ms-success: 70, 201, 58;
+    --ms-warning: 255, 186, 0;
+    --ms-dark: 30, 30, 30;
+    --ms-light: 255, 255, 255;
+    --ms-orange: var(--grid-loading-color);
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-filter {
+    width: 83%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #9e9e9e!important;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1!important;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
